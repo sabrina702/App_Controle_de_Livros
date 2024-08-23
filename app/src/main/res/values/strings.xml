@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Controle de livros</string>
+    <string name="save_book">Salvar</string>
+    <string name="button_cadastrar">Cadastrar Novo Livro</string>
+    <string name="button_listar">Listar Livro</string>
+    <string name="button_ler">Ler ISN</string>
+    <string name="book_title">Título do livro</string>
+    <string name="book_author">Autor(a) do livro</string>
+    <string name="book_pages">n° de páginas</string>
+    <string name="fab_description">Adiconar Livro</string>
+    <string name="title_activity_form">Cadastrar Livro</string>
+    <string name="radio_lido">Lido</string>
+    <string name="radio_lendo">Lendo</string>
+    <string name="radio_quero_ler">Quero ler</string>
+</resources>

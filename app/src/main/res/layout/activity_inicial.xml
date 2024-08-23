@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InicialActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="@string/app_name"/>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <Button
+        android:id="@+id/button_casdastrar_book"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_width="@dimen/button_horizontal"
+        android:layout_height="@dimen/button_vertical"
+        android:background="?attr/colorPrimary"
+        android:text="@string/button_cadastrar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        app:layout_constraintVertical_bias="0.427" />
+
+    <Button
+        android:id="@+id/button_listar_book"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_width="@dimen/button_horizontal"
+        android:layout_height="@dimen/button_vertical"
+        android:background="?attr/colorPrimary"
+        android:text="@string/button_listar"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_casdastrar_book"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/button_casdastrar_book"
+        app:layout_constraintTop_toBottomOf="@+id/button_casdastrar_book"
+        app:layout_constraintVertical_bias="0.139" />
+
+    <Button
+        android:id="@+id/button_ler_ISN"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_width="@dimen/button_horizontal"
+        android:layout_height="@dimen/button_vertical"
+        android:background="?attr/colorPrimary"
+        android:text="@string/button_ler"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/button_listar_book"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_listar_book"
+        app:layout_constraintTop_toBottomOf="@+id/button_listar_book"
+        app:layout_constraintVertical_bias="0.19" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
