@@ -1,15 +1,23 @@
 <resources>
     <string name="app_name">Controle de livros</string>
+    <string name="title_busca">Pesquisar Livro</string>
     <string name="save_book">Salvar</string>
     <string name="button_cadastrar">Cadastrar Novo Livro</string>
     <string name="button_listar">Listar Livro</string>
-    <string name="button_ler">Ler ISN</string>
+    <string name="button_ler">Pesquisar Livro</string>
+    <string name="button_add_resenha">Resenha</string>
     <string name="book_title">Título do livro</string>
     <string name="book_author">Autor(a) do livro</string>
     <string name="book_pages">n° de páginas</string>
+    <string name="post_titulo">Título do livro</string>
+    <string name="post_resenha">Resenha</string>
     <string name="fab_description">Adiconar Livro</string>
     <string name="title_activity_form">Cadastrar Livro</string>
+    <string name="title_activity_post">Resenhas</string>
+    <string name="title_form_post">Criar Resenha</string>
     <string name="radio_lido">Lido</string>
     <string name="radio_lendo">Lendo</string>
     <string name="radio_quero_ler">Quero ler</string>
+    <string name="pesquisa">Digite o ISBN ou nome do livro</string>
+    <string name="button_pesquisar">Buscar</string>
 </resources>

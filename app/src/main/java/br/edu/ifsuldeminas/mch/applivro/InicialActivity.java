@@ -31,5 +31,23 @@ public class InicialActivity extends AppCompatActivity {
                 startActivity(intent); // Inicie a nova Activity
             }
         });
+
+        Button buttonPesquisarLivro = findViewById(R.id.button_pesquisar_book);
+        buttonPesquisarLivro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(InicialActivity.this, SearchActivity.class);
+                startActivity(intent); // Inicie a nova Activity
+            }
+        });
+
+        Button buttonAddResenha = findViewById(R.id.button_add_resenha);
+        buttonAddResenha.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(InicialActivity.this, PostActivity.class);
+                startActivity(intent); // Inicie a nova Activity
+            }
+        });
     }
 }

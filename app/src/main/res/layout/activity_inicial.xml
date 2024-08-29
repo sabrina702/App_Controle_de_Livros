@@ -55,7 +55,7 @@
         app:layout_constraintVertical_bias="0.139" />
 
     <Button
-        android:id="@+id/button_ler_ISN"
+        android:id="@+id/button_pesquisar_book"
         android:theme="@style/AppTheme.AppBarOverlay"
         android:layout_width="@dimen/button_horizontal"
         android:layout_height="@dimen/button_vertical"
@@ -67,5 +67,20 @@
         app:layout_constraintStart_toStartOf="@+id/button_listar_book"
         app:layout_constraintTop_toBottomOf="@+id/button_listar_book"
         app:layout_constraintVertical_bias="0.19" />
+
+    <Button
+        android:id="@+id/button_add_resenha"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        android:layout_width="@dimen/button_horizontal"
+        android:layout_height="@dimen/button_vertical"
+        android:background="?attr/colorPrimary"
+        android:layout_marginTop="64dp"
+        android:text="@string/button_add_resenha"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_pesquisar_book"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
